@@ -1,0 +1,65 @@
+:root {
+  color-scheme: dark;
+}
+body {
+  margin: 0;
+  padding: 20px 24px;
+  font-family: var(--font, system-ui);
+  font-size: 13px;
+  color: var(--text, #ecedef);
+  background: transparent;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+h1 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+  border-radius: var(--r-md, 10px);
+  background: var(--surface, #191a1d);
+}
+li span {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+small {
+  color: var(--dim, #878a90);
+}
+button {
+  font: inherit;
+  height: 28px;
+  padding: 0 12px;
+  border: none;
+  border-radius: var(--r-sm, 7px);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+}
+button:hover {
+  background: var(--accent, #4f5dff);
+}
+#hata {
+  color: var(--red, #ff6b6b);
+}

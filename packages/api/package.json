@@ -1,0 +1,25 @@
+{
+  "name": "@ideagent/api",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./global": {
+      "types": "./dist/global.d.ts",
+      "import": "./dist/global.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denizbarish/ideagent.git"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}

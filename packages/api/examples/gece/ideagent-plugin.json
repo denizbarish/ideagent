@@ -1,0 +1,9 @@
+{
+  "apiVersion": 1,
+  "id": "gece",
+  "name": "Gece",
+  "version": "1.0.0",
+  "description": "Koyu mor zemin, mor vurgu.",
+  "icon": "icon.png",
+  "themes": [{ "id": "gece", "title": "Gece", "file": "gece.json" }]
+}

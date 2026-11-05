@@ -1,0 +1,12 @@
+{
+  "apiVersion": 1,
+  "id": "docker",
+  "name": "Docker",
+  "version": "0.1.0",
+  "description": "Konteynerleri listeler, başlatır ve durdurur.",
+  "icon": "icon.png",
+  "main": "main.js",
+  "panels": [{ "id": "docker", "title": "Docker", "html": "panel.html" }],
+  "statusItems": [{ "id": "calisan", "text": "Docker" }],
+  "permissions": { "docker": true }
+}

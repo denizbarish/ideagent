@@ -1,0 +1,51 @@
+name: Plugin Submission
+description: Apply to add a plugin or theme to the ideagent catalog.
+title: "Plugin: "
+labels: [plugin-submission]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Public repository that contains the plugin folder with ideagent-plugin.json.
+      placeholder: https://github.com/you/my-plugin
+    validations:
+      required: true
+  - type: input
+    id: plugin-id
+    attributes:
+      label: Plugin ID
+      description: The id field in ideagent-plugin.json.
+    validations:
+      required: true
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Version
+      description: A stable version, such as 1.0.0.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What It Does
+    validations:
+      required: true
+  - type: textarea
+    id: permissions
+    attributes:
+      label: Permissions
+      description: List each permission in the manifest (network hosts, docker, project) and why the plugin needs it. Write "None" if there are none.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: The manifest passes parseManifest from @ideagent/api.
+          required: true
+        - label: The source is readable (not minified or obfuscated) and I have the right to publish it.
+          required: true
+        - label: I tested the plugin with Klasörden Yükle (Load From Folder).
+          required: true

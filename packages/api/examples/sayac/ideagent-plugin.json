@@ -1,0 +1,12 @@
+{
+  "apiVersion": 1,
+  "id": "sayac",
+  "name": "Sayaç",
+  "version": "1.0.0",
+  "description": "Panelden artan, komutla sıfırlanan sayaç.",
+  "icon": "icon.png",
+  "main": "main.js",
+  "panels": [{ "id": "sayac", "title": "Sayaç", "html": "panel.html" }],
+  "commands": [{ "id": "sifirla", "title": "Sıfırla" }],
+  "statusItems": [{ "id": "sayi", "text": "Sayaç: 0", "command": "sifirla" }]
+}

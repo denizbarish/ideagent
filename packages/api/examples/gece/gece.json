@@ -1,0 +1,15 @@
+{
+  "scheme": "dark",
+  "colors": {
+    "bg0": "#0a0910",
+    "bg": "#0d0c14",
+    "surface0": "#110f19",
+    "surface": "#16141f",
+    "surface2": "#1e1b2a",
+    "surface3": "#262234",
+    "surface4": "#2f2a40",
+    "accent": "#8b6cf6",
+    "accent-hover": "#9a7ef8",
+    "accent-t": "#c9b8ff"
+  }
+}
