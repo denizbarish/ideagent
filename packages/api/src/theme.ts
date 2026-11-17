@@ -50,7 +50,7 @@ export const BUILTIN_THEMES: Record<ThemeScheme, ThemeColors> = {
     'accent-t': '#b4bbff',
     'on-accent': '#ffffff',
     green: '#5fd38d',
-    red: '#ff6b6b',
+    red: '#d03d3d',
     amber: '#f5b544',
     'red-t': '#ff8a8a',
     'amber-t': '#f5c46b',
